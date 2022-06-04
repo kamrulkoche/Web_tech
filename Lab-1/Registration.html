@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+</head>
+<body>
+<form method="post" action="Registration.php">
+	<fieldset>
+		<legend>General</legend>
+<table>
+	<thead></thead>
+	<tbody>
+		<tr>
+			<td>First Name</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><label for="FirstName"></label>
+				<input type="text" name="FirstName"placeholder="FirstName"autofocus>
+			</td>
+		</tr>
+		<tr>	
+			<td>Last Name</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><label for="LastName"></label>
+				<input type="text" name="LastName"placeholder="LastName"autofocus>
+			</td>
+		</tr>	
+		<tr>
+			<td>Gender</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>
+				<input type="radio"name="Gender"id="Male"value="Male">
+				<label for="Male">Male</label>
+				<input type="radio" name="Gender"id="Female"value="Female">
+				<label for="Female">Female</label>
+			</td>
+		</tr>	
+			</tbody>
+			</table>
+</fieldset>
+<br><br>
+<fieldset>
+	<legend>Contact</legend>
+	<table>
+	<thead></thead>
+	<tbody>
+			<td>Email</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><input type="email" name="email"></td>
+		</tr>	
+		<tr>
+			<td>Mobile No</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><input type="number" name="number"></td>
+		</tr>	
+		</tbody>
+			</table>
+</fieldset>
+<br><br>
+<fieldset>
+	<legend>Address</legend>
+<table>
+	<thead></thead>
+	<tbody>
+		<tr>
+			<td>Street/House/Road</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><label for="Street/House/Road"></label>
+				<input type="text" name="road">
+			</td>
+		</tr>	
+		<tr>
+			<td>Country</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>
+				<select name="Country"id="Country">
+					<option value="Bangladesh">Bangladesh</option>
+					<option value="India">India</option>
+				</select>
+			</td>
+		</tr>	
+		<tr>
+			<td></td>
+		</tr>	
+	</tbody>
+</table>
+</fieldset>
+	<input type="submit" name="Register"value="Register">
+</form>
+</body>
+</html>
